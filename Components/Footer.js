@@ -27,7 +27,7 @@ const Footer = ({ currentTheme }) => {
                 </ul>
             </div>
             <hr style={{ height: '1px', backgroundColor: currentTheme.subtext, border: 'none', opacity: '0.5' }}></hr>
-            <h2 className={styles.footercontent}>Template by Asavari Ambavane</h2>
+            <h2 className={styles.footercontent}>"If you love what you are doing, you will be successful" - Albert Schweitzer</h2>
         </div>
     )
 }
