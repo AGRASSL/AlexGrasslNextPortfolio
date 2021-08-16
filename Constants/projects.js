@@ -1,5 +1,5 @@
 // import project demo images as follows.
-import PROJECT1_1 from '../styles/projects/Project1_1.jpg';
+import PROJECT1_1 from '../styles/projects/Project1_1.png';
 import PROJECT1_2 from '../styles/projects/Project1_2.jpg';
 import PROJECT1_3 from '../styles/projects/Project1_3.jpg';
 import PROJECT2_1 from '../styles/projects/Project2_1.jpg';
