@@ -10,7 +10,7 @@ export const userinfo = {
     },
     socials: [
         { type: 'github', link: 'https://github.com/AGRASSL', icon: faGithubAlt },
-        { type: 'linkedin', link: 'https://www.linkedin.com/in/alexandra-grassl-a61a07126/', icon: faLinkedinIn },
+        { type: 'linkedin', link: 'https://www.linkedin.com/in/alexandra-grassl-a61a07126', icon: faLinkedinIn },
     ],
     greeting: {
         title: "Hey there! I'm Alex.",
