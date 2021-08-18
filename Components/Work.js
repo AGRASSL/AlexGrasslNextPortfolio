@@ -10,28 +10,28 @@ import Experiences from './Experiences';
 
 const Work = ({ currentTheme }) => {
 
-    const [blogList, setBlogList] = useState([])
+    // const [blogList, setBlogList] = useState([])
 
-    // CUSTOM BLOGS SUPPORT: UNCOMMENT THE FOLLOWING CODE FOR CUSTOM BLOGS
-    useEffect(() => {
-        setBlogList(custom_blogs)
-    }, [])
-
-    // MEDIUM BLOGS SUPPORT: UNCOMMENT THE FOLLOWING CODE FOR MEDIUM BLOGS
+    // // CUSTOM BLOGS SUPPORT: UNCOMMENT THE FOLLOWING CODE FOR CUSTOM BLOGS
     // useEffect(() => {
-    //     fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${medium_blogs.username}`)
-    //         .then(response => response.json())
-    //         .then(data => setBlogList(data.items))
-    //         .catch(err => console.error(err));
+    //     setBlogList(custom_blogs)
     // }, [])
 
-    // DEV.TO BLOGS SUPPORT: UNCOMMENT THE FOLLOWING CODE FOR DEV.TO BLOGS
-    // useEffect(() => {
-    //     fetch(`https://dev.to/api/articles?username=${dev_to.username}`)
-    //         .then(response => response.json())
-    //         .then(data => setBlogList(data))
-    //         .catch(err => console.error(err));
-    // }, [])
+    // // MEDIUM BLOGS SUPPORT: UNCOMMENT THE FOLLOWING CODE FOR MEDIUM BLOGS
+    // // useEffect(() => {
+    // //     fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${medium_blogs.username}`)
+    // //         .then(response => response.json())
+    // //         .then(data => setBlogList(data.items))
+    // //         .catch(err => console.error(err));
+    // // }, [])
+
+    // // DEV.TO BLOGS SUPPORT: UNCOMMENT THE FOLLOWING CODE FOR DEV.TO BLOGS
+    // // useEffect(() => {
+    // //     fetch(`https://dev.to/api/articles?username=${dev_to.username}`)
+    // //         .then(response => response.json())
+    // //         .then(data => setBlogList(data))
+    // //         .catch(err => console.error(err));
+    // // }, [])
 
     return (
         <div>

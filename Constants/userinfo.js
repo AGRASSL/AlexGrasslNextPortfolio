@@ -39,7 +39,7 @@ export const userinfo = {
     ],
     about: {
         content: "Bachelors of Science in Business Leadership Management from DePaul University. Certificate of Full Stack Web Development from Northwestern University. I am to fully utilize and expand my knowlege of software development in an agile environment.",
-        resume: "https://docs.google.com/document/d/1Iduoh9x38UDTP2MtXD9ZWX41CRDz6zHh-JSYZJw_uLM/edit?usp=sharing" 
+        resume: "https://docs.google.com/document/d/1M1TGpeOZgTDuC4_IaaUCFrxCbq2gDg7Qu6T5jH0hxlo/edit?usp=sharing" 
     },
     education: {
         visible: true, //set this to false if you want to omit this section
