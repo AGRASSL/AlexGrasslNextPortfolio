@@ -1,12 +1,10 @@
-//PLEASE FOLLOW THE FORMAT OF THIS FILE.
-
-import { faGithubAlt, faLinkedinIn, faMediumM, faFacebook, faTwitter, faInstagram, faYoutube, faBehance } from "@fortawesome/free-brands-svg-icons"
+import { faGithubAlt, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 
 export const userinfo = {
     logoText: "Alexandra Grassl",
     contact: {
         email: 'alexandragrassl2021@u.northwestern.edu', 
-        phone: '(773) 420-6546',
+        phone: '+1 (773) 420-6546',
     },
     socials: [
         { type: 'github', link: 'https://github.com/AGRASSL', icon: faGithubAlt },
@@ -17,11 +15,9 @@ export const userinfo = {
         subtitle: "Full Stack Web Developer based in Chicago"
     },
     capabilities: [
-        //this text goes on your home page in table format.
-        //For aesthetics, it is advisable for you to mention upto 4 catgeories links only.
-        //For aesthetics, it is advisable for you to keep similar number of skills in each category
+
         {
-            category: "Front End", // eg.frontend, backend, devops etc
+            category: "Front End", 
             skills: ["Javascript", "React", "SCSS Styling"] 
         },
         {
@@ -32,20 +28,17 @@ export const userinfo = {
             category: "DevOps",
             skills: ["Version Control", "Dev Tools", "Testing"]
         },
-        // {
-        //     category: "Category",
-        //     skills: ["Skillset4", "Skillset4", "Skillset4"]
-        // },
+
     ],
     about: {
         content: "Bachelors of Science in Business Leadership Management from DePaul University. Certificate of Full Stack Web Development from Northwestern University. I am to fully utilize and expand my knowlege of software development in an agile environment.",
         resume: "https://docs.google.com/document/d/1M1TGpeOZgTDuC4_IaaUCFrxCbq2gDg7Qu6T5jH0hxlo/edit?usp=sharing" 
     },
     education: {
-        visible: true, //set this to false if you want to omit this section
+        visible: true, 
         educationList: [
             {
-                time: 'January - July 2021', //timespan
+                time: 'January - July 2021', 
                 title: 'Full Stack Web Development Bootcamp',
                 organization: 'Northwestern University',
                 description: 'A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS'
@@ -64,7 +57,7 @@ export const userinfo = {
             {
                 company: 'Yelp',
                 position: 'Account Executive',
-                time: 'July 2019 - February 2020', //timespan
+                time: 'July 2019 - February 2020',
                 description: 'Account Executive assisting small businesses obtain exposure for consumers to connect with their business. Working for SEO related to their page, increasing revenue, and identifying gaps in opportunity.' 
             },
             {
@@ -87,19 +80,16 @@ export const userinfo = {
 }
 
 export const headings = {
-    //you can customise all the headings here.
     workHomePage: 'Work',
     workMainPage: 'Projects',
     capabilities: 'Capabilities',
     about: 'About Me',
     education: 'Education',
     experience: 'Experiences',
-    // blogs: 'I write!',
     contact: 'Contact Me',
 }
 
 export const ctaTexts = {
-    //you can customise all the cta texts here.
     landingCTA: 'My work',
     workCTA: 'View All',
     capabCTA: 'Get in Touch',
